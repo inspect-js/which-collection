@@ -4,6 +4,8 @@
 	"description": "Which kind of Collection (Map, Set, WeakMap, WeakSet) is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.",
 	"main": "index.js",
 	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -26,5 +28,9 @@
 	"bugs": {
 		"url": "https://github.com/inspect-js/which-collection/issues"
 	},
-	"homepage": "https://github.com/inspect-js/which-collection#readme"
+	"homepage": "https://github.com/inspect-js/which-collection#readme",
+	"devDependencies": {
+		"@ljharb/eslint-config": "^15.0.1",
+		"eslint": "^6.6.0"
+	}
 }

@@ -1,5 +1,15 @@
 {
 	"root": true,
 
-	"extends": "@ljharb"
+	"extends": "@ljharb",
+
+	"overrides": [
+		{
+			"files": "test/**",
+			"globals": {
+				"WeakMap": false,
+				"WeakSet": false,
+			},
+		},
+	],
 }

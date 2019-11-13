@@ -4,11 +4,14 @@
 	"description": "Which kind of Collection (Map, Set, WeakMap, WeakSet) is this JavaScript value? Works cross-realm, without `instanceof`, and despite Symbol.toStringTag.",
 	"main": "index.js",
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"lint": "eslint .",
 		"pretest": "npm run lint",
 		"tests-only": "node test",
 		"test": "npm run tests-only",
-		"posttest": "npx aud"
+		"posttest": "npx aud",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"repository": {
 		"type": "git",
@@ -33,9 +36,11 @@
 	"homepage": "https://github.com/inspect-js/which-collection#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^15.0.1",
+		"auto-changelog": "^1.16.2",
 		"eslint": "^6.6.0",
 		"for-each": "^0.3.3",
 		"object-inspect": "^1.7.0",
+		"safe-publish-latest": "^1.1.4",
 		"tape": "^4.11.0"
 	},
 	"dependencies": {
@@ -43,5 +48,12 @@
 		"is-set": "^2.0.0",
 		"is-weakmap": "^2.0.0",
 		"is-weakset": "^2.0.0"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false
 	}
 }

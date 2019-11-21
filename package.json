@@ -35,7 +35,7 @@
 	},
 	"homepage": "https://github.com/inspect-js/which-collection#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^15.0.1",
+		"@ljharb/eslint-config": "^15.0.2",
 		"auto-changelog": "^1.16.2",
 		"eslint": "^6.6.0",
 		"for-each": "^0.3.3",

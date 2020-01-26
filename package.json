@@ -44,10 +44,10 @@
 		"tape": "^4.11.0"
 	},
 	"dependencies": {
-		"is-map": "^2.0.0",
-		"is-set": "^2.0.0",
-		"is-weakmap": "^2.0.0",
-		"is-weakset": "^2.0.0"
+		"is-map": "^2.0.1",
+		"is-set": "^2.0.1",
+		"is-weakmap": "^2.0.1",
+		"is-weakset": "^2.0.1"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",

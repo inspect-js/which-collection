@@ -1,6 +1,5 @@
 # which-collection <sup>[![Version Badge][2]][1]</sup>
 
-[![Build Status][3]][4]
 [![dependency status][5]][6]
 [![dev dependency status][7]][8]
 [![License][license-image]][license-url]
@@ -48,9 +47,7 @@ assert.equal('WeakSet', whichCollection(new WeakSet()));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/which-collection
-[2]: http://versionbadg.es/inspect-js/which-collection.svg
-[3]: https://travis-ci.org/inspect-js/which-collection.svg
-[4]: https://travis-ci.org/inspect-js/which-collection
+[2]: https://versionbadg.es/inspect-js/which-collection.svg
 [5]: https://david-dm.org/inspect-js/which-collection.svg
 [6]: https://david-dm.org/inspect-js/which-collection
 [7]: https://david-dm.org/inspect-js/which-collection/dev-status.svg
@@ -58,7 +55,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [9]: https://ci.testling.com/inspect-js/which-collection.png
 [10]: https://ci.testling.com/inspect-js/which-collection
 [11]: https://nodei.co/npm/which-collection.png?downloads=true&stars=true
-[license-image]: http://img.shields.io/npm/l/which-collection.svg
+[license-image]: https://img.shields.io/npm/l/which-collection.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/which-collection.svg
-[downloads-url]: http://npm-stat.com/charts.html?package=which-collection
+[downloads-image]: https://img.shields.io/npm/dm/which-collection.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=which-collection

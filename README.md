@@ -63,4 +63,3 @@ Simply clone the repo, `npm install`, and run `npm test`
 [codecov-url]: https://app.codecov.io/gh/inspect-js/which-collection/
 [actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/which-collection
 [actions-url]: https://github.com/inspect-js/which-collection/actions
-

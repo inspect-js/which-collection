@@ -58,7 +58,7 @@
 		"is-map": "^2.0.2",
 		"is-set": "^2.0.2",
 		"is-weakmap": "^2.0.1",
-		"is-weakset": "^2.0.1"
+		"is-weakset": "^2.0.2"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",

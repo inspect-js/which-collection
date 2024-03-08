@@ -55,10 +55,10 @@
 		"tape": "^5.7.5"
 	},
 	"dependencies": {
-		"is-map": "^2.0.2",
-		"is-set": "^2.0.2",
-		"is-weakmap": "^2.0.1",
-		"is-weakset": "^2.0.2"
+		"is-map": "^2.0.3",
+		"is-set": "^2.0.3",
+		"is-weakmap": "^2.0.2",
+		"is-weakset": "^2.0.3"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
